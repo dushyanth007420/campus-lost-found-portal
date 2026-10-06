@@ -106,7 +106,7 @@ const Dashboard = () => {
     <div className="page-container dashboard-page">
       <div className="dashboard-header">
         <div>
-          <h2>Student Dashboard</h2>
+          <h2>Hi {user?.name}! Welcome to your Dashboard</h2>
           <p>Manage your reported items and oversee verification claims</p>
         </div>
         <Link to="/post" className="btn-primary">
